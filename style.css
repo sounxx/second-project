@@ -1,0 +1,46 @@
+.box {
+    border: 50px solid red;
+    width: 200px;
+    padding: 50px;
+}
+.green {
+    border-color: green;
+    /* display: none; -> 요소 자체가 안 보임 */
+    /* visibility: hidden; -> 요소는 안 보이지만 영역은 나타냄 */
+}
+.blue {
+    border-color: blue;
+}
+.purple {
+    border-color: #8e44ad;
+}
+
+
+.challenge2 {
+    padding-left: 10%; /* 안으로 10% 정도 들여쓰기 */
+    margin-top: 200px;
+    background-color: #fff;
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+h1 {
+    color: #9b59b6;
+}
+h1:first-child {
+    text-align: center;
+}
+p {
+    font-size: 16px;
+    font-family: Verdana;
+    font-style: italic;
+}
+p::first-letter { /* p태그 첫 번째 글씨만 폰트 크기, 색 변경 */
+    font-size: 200%;
+    color: #2980b9;
+}
+.sub-header {
+    color: #2980b9;
+}
+h1::before {
+    content: "Topic: ";
+}
